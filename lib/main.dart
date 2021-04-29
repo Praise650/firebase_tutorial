@@ -54,27 +54,27 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
           ),
-          // Row(
-          //   children: [
-          //     Container(
-          //       child: TextFormField(
-          //         initialValue: "email@domain.com",
-          //       ),
-          //     ),
-          //     Container(
-          //       child: TextFormField(
-          //         keyboardType: TextInputType.visiblePassword,
-          //         initialValue: "Password",
-          //       ),
-          //     ),
-          //     Container(
-          //       child: TextButton(
-          //         onPressed: () {},
-          //         child: Text('Login'),
-          //       ),
-          //     ),
-          //   ],
-          // ),
+          Row(
+            children: [
+              Container(
+                child: TextFormField(
+                  initialValue: "email@domain.com",
+                ),
+              ),
+              Container(
+                child: TextFormField(
+                  keyboardType: TextInputType.visiblePassword,
+                  initialValue: "Password",
+                ),
+              ),
+              Container(
+                child: TextButton(
+                  onPressed: () {},
+                  child: Text('Login'),
+                ),
+              ),
+            ],
+          ),
         ],
       ), // This trailing comma makes auto-formatting nicer for build methods.
 
